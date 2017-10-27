@@ -1,0 +1,16 @@
+---
+hierakey: "Production hiera value"
+
+
+---
+vhosts:
+  example.com:
+    host_aliases: "www.example.com"
+    docroot: "/var/www/html/example.com"
+  example.dk:
+    host_ailases: "www.example.dk"
+    docroot: "/var/www/html/example.dk"
+  example.nl:
+    host_aliases: "www.example.nl"
+    docroot: "/var/www/html/example.nl"
+
